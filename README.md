@@ -40,10 +40,8 @@ RAG（Retrieval-Augmented Generation）是一种结合了信息检索和生成�
 
 `conda activate rag_py3.12`
 
-# 实战操作
-# 1. 使用llamaindex搭建RAG
-
-`pip install llama-index`
+# 4. 安装依赖包
+`pip install -r requirements.txt`
 
 
 

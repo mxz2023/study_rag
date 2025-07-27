@@ -1,0 +1,17 @@
+# unstructured 在解析pdf文件时，需要用到libmagic工具
+# brew install libmagic
+
+# UnstructuredImageLoader 需要使用Tesseract OCR，它是处理图片文字识别所必需的工具。
+# brew install tesseract
+# brew install tesseract-lang # 用于支持中文识别
+
+# 处理 PPT 文件所必需的工具
+# brew install libreoffice
+
+langchain==0.3.27
+langchain-community==0.3.27
+unstructured==0.18.11
+llama-index==0.12.52
+
+# 使用 from unstructured.partition.ppt import partition_ppt 需要 pip install python-pptx
+python-pptx
